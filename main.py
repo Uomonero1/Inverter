@@ -1,5 +1,5 @@
 a = input("Type something: ").strip()
-char_list = [x for x in a]
+char_list = list(a)
 x = 0
 y = -1
 
